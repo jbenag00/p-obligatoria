@@ -20,7 +20,7 @@ public class Carta {
 			this.numero=numero;
 		}
 		if(palo <1|| palo >4){
-			throw new SieteYmedioException("Carta - Error: Palo "+palo+" no valido. Debe estar entre 1 y 10");
+			// throw new SieteYmedioException("Carta - Error: Palo "+palo+" no valido. Debe estar entre 1 y 10");
 			else{
 				switch(palo){
 				case 1:
